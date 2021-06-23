@@ -44,8 +44,7 @@ footer{
 .textoMision {
 	font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    text-transform: uppercase;
-	color: black;
+    color: black;
 	background-color: rgba(255,255,255,0.7);
 }
 .parallax {
@@ -60,8 +59,4 @@ footer{
 	color: black;
 	background-color: #fff2db;
 }
-.NovedadesIntermedio {
-	font-family: 'Montserrat', sans-serif;
-	color: white;
-	background-color: darkred;
-}
+
