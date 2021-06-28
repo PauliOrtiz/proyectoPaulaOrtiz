@@ -4,45 +4,52 @@ header {
   padding: 30px 30px 10px 30px;
   margin-bottom: 50px; }
 
-.infoFooter {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  font-family: 'Montserrat', sans-serif;
-  color: white; }
+footer {
+  background-color: lightgrey; }
+  footer .infoFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    color: white; }
+  footer ul li {
+    list-style: none; }
+  footer h6 {
+    text-align: justify;
+    color: white; }
 
-ul li {
-  list-style: none; }
-
-h6 {
+.copy {
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   color: white; }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 300%;
   text-align: center;
   color: darkred; }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: white;
   background-color: brown;
   text-align: center; }
 
 .textoIndex {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   text-align: justify;
   background-color: #fff2db; }
+  .textoIndex ul li {
+    list-style: none; }
 
-footer {
-  background-color: grey; }
+ul li {
+  list-style: none; }
 
 .textoMision {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   color: black;
   background-color: rgba(255, 255, 255, 0.7); }
@@ -55,6 +62,6 @@ footer {
   background-size: cover; }
 
 .Novedades {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: black;
   background-color: #fff2db; }

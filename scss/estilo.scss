@@ -1,52 +1,84 @@
+$rojo: darkred;
+$tipo: 'Montserrat', sans-serif;
+$blanco: white;
+$rosa: #fff2db;
+$negro: black;
+
+
+
+
 header {
 	z-index: 1;
 	top: 0px;
 	padding: 30px 30px 10px 30px;
 	margin-bottom: 50px;
 }
-.infoFooter{
+
+footer{
+	background-color: lightgrey;
+
+    .infoFooter{
 	display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+    justify-content: space-between;
+    font-family: $tipo;
+    color: $blanco;
+    }
+
+    ul li{
+	  list-style: none;
+    }
+
+    h6 {
+	text-align: justify;
+	color: $blanco;
+    }
 }
-ul li{
-	list-style: none;
-}
-h6 {
+
+.copy{
+    font-family: $tipo;
 	text-align: center;
-	color: white;
+	color: $blanco;
 }
+
 h2 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: $tipo;
 	font-weight: bold;
 	font-size: 300%;
 	text-align: center;
-	color:darkred;
+	color: $rojo;
 }
+
 h3 {
-	font-family: 'Montserrat', sans-serif;
-	color: white;
+	font-family: $tipo;
+	color: $blanco;
 	background-color: brown;
 	text-align: center;
 }
+
 .textoIndex {
-	font-family: 'Montserrat', sans-serif;
+	font-family: $tipo;
 	font-style: normal;
 	text-align: justify;
-	background-color: #fff2db;
+	background-color: $rosa;
+
+	ul li{
+	  list-style: none;
+    }
 }
-footer{
-	background-color: grey;
-}
+
+ul li{
+	  list-style: none;
+    }
+
 .textoMision {
-	font-family: 'Montserrat', sans-serif;
+	font-family: $tipo;
     font-style: normal;
-    color: black;
+    color: $negro;
 	background-color: rgba(255,255,255,0.7);
 }
+
 .parallax {
     background-image: url("../assets/img/donacion_sangre.jpg");
     background-attachment: fixed;
@@ -54,8 +86,9 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .Novedades {
-	font-family: 'Montserrat', sans-serif;
-	color: black;
-	background-color: #fff2db;
+	font-family: $tipo;
+	color: $negro;
+	background-color: $rosa;
 }
