@@ -1,11 +1,10 @@
 header {
   z-index: 1;
   top: 0px;
-  padding: 30px 30px 10px 30px;
-  margin-bottom: 50px; }
+  margin-bottom: 30px; }
 
 footer {
-  background-color: lightgrey; }
+  background-color: darkred; }
   footer .infoFooter {
     display: flex;
     flex-direction: row;
@@ -14,7 +13,10 @@ footer {
     font-family: "Montserrat", sans-serif;
     color: white; }
   footer ul li {
-    list-style: none; }
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
   footer h6 {
     text-align: justify;
     color: white; }
@@ -52,16 +54,26 @@ ul li {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   color: black;
-  background-color: rgba(255, 255, 255, 0.7); }
+  background-color: #fff2db; }
 
-.parallax {
-  background-image: url("../assets/img/donacion_sangre.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: darkred; }
 
 .Novedades {
   font-family: "Montserrat", sans-serif;
   color: black;
   background-color: #fff2db; }
+
+.contacto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff2db; }
+
+.logo {
+  display: flex;
+  justify-content: flex-end; }

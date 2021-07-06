@@ -10,12 +10,12 @@ $negro: black;
 header {
 	z-index: 1;
 	top: 0px;
-	padding: 30px 30px 10px 30px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
+	
 }
 
 footer{
-	background-color: lightgrey;
+	background-color: $rojo;
 
     .infoFooter{
 	display: flex;
@@ -28,13 +28,17 @@ footer{
 
     ul li{
 	  list-style: none;
-    }
+	  display: flex;
+	  flex-direction: row;
+	  align-items: center;
 
+    }
     h6 {
-	text-align: justify;
-	color: $blanco;
+	  text-align: justify;
+	  color: $blanco;
     }
 }
+
 
 .copy{
     font-family: $tipo;
@@ -76,19 +80,30 @@ ul li{
 	font-family: $tipo;
     font-style: normal;
     color: $negro;
-	background-color: rgba(255,255,255,0.7);
+    background-color: $rosa;
 }
-
-.parallax {
-    background-image: url("../assets/img/donacion_sangre.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+h4 {
+	font-family: $tipo;
+	font-weight: bold;
+	text-align: center;
+	color: $rojo;
 }
 
 .Novedades {
 	font-family: $tipo;
 	color: $negro;
 	background-color: $rosa;
+}
+.contacto {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-family: $tipo;
+	background-color: $rosa;
+	
+}
+.logo {
+	display: flex; 
+	justify-content: flex-end;
+
 }
